@@ -1,4 +1,4 @@
-if you open the main folder, open terminal and go to ``client`
+if you open the main folder, open terminal and go to ``client``
 then type ``npm install next react react-dom`` to reinstall next.js enviroments.
 then type ``npm run dev`` to run the client.
 
@@ -18,7 +18,7 @@ make a new file named it ``.env.local` it should be inside the client not inside
 ``client
     -pages
  .env.local``
-copy your IPv4 Address then paste this inside the  `` .env.local``
+copy your IPv4 Address then paste this inside the  ``.env.local``
 ``NEXT_PUBLIC_API_URL=http://192.168.42.167:5000``
 go back to the browser and try to login again it should allow you in mobile and pc.
 
