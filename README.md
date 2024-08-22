@@ -29,15 +29,26 @@ note : your mobile and pc should be connected into the usb port. use your mobile
 
 go directly crud inside the server. you can go to cmd and paste this.
 1.  to get the jwt token
+2.  
 ``curl -X POST http://localhost:5000/api/login -H "Content-Type: application/json" -d "{\"username\": \"user\", \"password\": \"user\"}"``
-2. to create item
-curl -X POST http://localhost:5000/api/items -H "Content-Type: application/json" -H "Authorization: Bearer removethiswordpastethetokenhere" -d "{\"name\": \"Item1\", \"description\": \"Description1\", \"price\": 10.0}"
+
+4. to create item
+5. 
+``curl -X POST http://localhost:5000/api/items -H "Content-Type: application/json" -H "Authorization: Bearer removethiswordpastethetokenhere" -d "{\"name\": \"Item1\", \"description\": \"Description1\", \"price\": 10.0}"``
+
 3.get item by id
+
 ``curl -H "Authorization: Bearer removethiswordpastethetokenhere " http://localhost:5000/api/items/1``
+
 4.delete id
+
 ``curl -X DELETE http://localhost:5000/api/items/1 -H "Authorization: Bearer removethiswordpastethetokenhere"``
-5. update by id
+
+7. update by id
+8. 
 ``curl -X PUT http://localhost:5000/api/items/1 -H "Content-Type: application/json" -H "Authorization: Bearer removethiswordpastethetokenhere" -d "{\"name\": \"Updated Item1\", \"description\": \"Updated Description1\", \"price\": 20.0}"``
+
+
 ----
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
