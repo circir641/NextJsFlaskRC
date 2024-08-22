@@ -35,6 +35,9 @@ make a new file named it ``.env.local` it should be inside the client not inside
  
 copy your IPv4 Address then paste this inside the  `` .env.local``
 
+it should be like this :
+
+
 ``NEXT_PUBLIC_API_URL=http://192.168.42.167:5000``
 
 go back to the browser and try to login again it should allow you in mobile and pc.
