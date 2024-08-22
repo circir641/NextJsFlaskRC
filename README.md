@@ -1,3 +1,4 @@
+** Instructions **
 if you open the main folder, open terminal and go to ``client``
 then type ``npm install next react react-dom`` to reinstall next.js enviroments.
 then type ``npm run dev`` to run the client.
