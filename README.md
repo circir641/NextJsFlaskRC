@@ -44,7 +44,7 @@ go back to the browser and try to login again it should allow you in mobile and 
 
 note : your mobile and pc should be connected into the usb port. use your mobile's internet as your pc's internet so they both shared same IPv4 Address.
 
-go directly crud inside the server. you can go to cmd and paste this.
+to directly crud inside the server. you can go to cmd and paste this.
 
 1.  to get the jwt token
    
