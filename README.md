@@ -28,7 +28,9 @@ note :when you log in and keeps saying ``invalid user or password`` go to cmd an
 make a new file named it ``.env.local` it should be inside the client not inside the pages.
 
 ``client
+
     -pages
+    
  .env.local``
  
 copy your IPv4 Address then paste this inside the  `` .env.local``
