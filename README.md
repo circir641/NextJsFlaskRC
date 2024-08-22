@@ -2,6 +2,8 @@ if you open the main folder, open terminal and go to ``client``
 
 then type ``npm install next react react-dom`` to reinstall next.js enviroments.
 
+next ``npx create-next-app .``
+
 then type ``npm run dev`` to run the client.
 
 open new terminal and go to server folder.
