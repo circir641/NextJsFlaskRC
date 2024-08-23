@@ -1,4 +1,7 @@
+** TUTORIAL TO FOR ENVIROMENT INSTALLATION AND RUNNING THE PROGRAM **
 if you open the main folder, open terminal and go to ``client``
+
+example :``PS C:\Users\user\vercel2-master>  cd client``
 
 then type ``npm install next react react-dom`` to reinstall next.js enviroments.
 
@@ -7,18 +10,32 @@ next ``npx create-next-app .``
 then type ``npm run dev`` to run the client.
 
 open new terminal and go to server folder.
+
 delete the env folder
+
+to go directly into your server folder using terminal:
+
+``PS C:\Users\user\vercel2-master\client>cd ../server``
+
+or if your terminal still in main folder just type
+
+``cd server``
+
 
 to reinstall new environment for the server type inside the terminal should be like
 
 ``PS C:\Users\user\vercel2-master\server> python -m venv env ``
 next type
+
 ``env\scripts\activate`` 
 once inside the environment type
 
 ``pip install -r requirements.txt``
 
-go to browser and run localhost:3000/login
+go to browser and run 
+
+``localhost:3000/login``
+
 the user and pass was 
 
 user:``user`` password:``user``
